@@ -1,0 +1,6 @@
+.ChatLayout {
+    display: flex;
+    height: 100vh;
+    background: #f5f7fb;
+    font-family: 'Inter', sans-serif;
+}

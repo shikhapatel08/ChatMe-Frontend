@@ -1,0 +1,100 @@
+.search-container {
+    background: rgb(255, 255, 255);
+    min-height: 100vh;
+    width: 1290px;
+    padding: 20px 30px;
+    color: #1f2937;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin-left: 250px;
+}
+
+.search-header {
+    margin-bottom: 15px;
+}
+
+.search-header h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.Search {
+    margin-bottom: 20px;
+}
+
+.Serach-input {
+    width: 97%;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    outline: none;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    background-color: #ffffff;
+    color: #111827;
+}
+
+.Serach-input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.loading {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 10px;
+}
+
+/* No Users */
+.no-users {
+    font-size: 14px;
+    color: #9ca3af;
+    margin-bottom: 10px;
+}
+
+.search-user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.search-user:hover {
+    background-color: #e5e7eb;
+    transform: scale(1.01);
+}
+
+/* Profile Image */
+.search-user img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #d1d5db;
+}
+
+/* Username */
+.search-user span {
+    font-size: 15px;
+    font-weight: 500;
+    color: #111827;
+}
+
+/* Scrollable List */
+.search-container {
+    overflow-y: auto;
+}
+
+/* Scrollbar Styling */
+.search-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.search-container::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 10px;
+}

@@ -1,0 +1,61 @@
+.Sidebar-conatiner {
+    display: flex;
+    flex-direction: column; /* Changed to column */
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.Sidebar-logo img {
+    width: 200px;
+    height: 100px;
+    /* margin-top: -19px; */
+    /* margin-left: 10px; */
+    padding: 1px 20px;
+    cursor: pointer; /* Added cursor */
+}
+
+.Sidebar-menu {
+    flex: 1; /* Takes remaining space */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: black;
+    /* margin-top: 2px; Reduced from 120px */
+}
+
+.Sidebar-top-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    margin-bottom: 10px;
+}
+
+.Sidebar-botton-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 358px; */
+    text-align: center;
+}
+
+.Sidebar-menu li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    transition: background 0.2s ease;
+    cursor: pointer;
+    color: inherit;
+}
+
+.Sidebar-menu li:hover {
+    background-color: #f1f5f9;
+}
